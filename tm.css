@@ -1,0 +1,222 @@
+h3
+{
+  color: #3F8242;
+}
+
+.tm_round 
+{
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.tm_mainfontbold
+{
+  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
+}
+
+.tm_mainfontlarge
+{
+  font-family: Arial;
+  font-size: x-large;
+}
+
+.tm_mainfont
+{
+  font-family: Arial;
+  font-size: small;
+}
+
+.tm_body
+{
+  padding: 10px 20px 10px 0px;
+}
+
+.tm_form
+{
+  padding: 0px 10px 0px 10px;
+}
+
+.tm_formitem
+{
+  margin: 0px 0px 20px 0px;
+}
+
+.tm_error
+{
+  color: #d40000;
+  border: 1px solid #d40000;
+  background: #ffe3e3;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 10px 0px;
+  display: inline-block;
+}
+
+.tm_noerror
+{
+  color: #209800;
+  border: 1px solid #209800;
+  background: #e9ffe3;
+  padding: 10px 10px 10px 10px; 
+  margin: 0px 0px 10px 0px;
+  display: inline-block;
+}
+
+.tm_label
+{
+  display: inline-block;
+  width: 220px;
+}
+
+.tm_icon32
+{
+  padding: 0px 0px 0px 40px;
+  line-height: 32px;
+  height: 32px;
+  background: transparent url(icons/icon1_32.png) no-repeat 0px 0px;
+}
+
+.tm_helpmenu
+{
+  display: inline-block;
+  height: 9px;
+  width: 9px;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.tm_helpmenu span
+{
+  display: none;
+}
+
+.tm_helpmenu:hover span
+{
+  display: block;
+}
+
+.tm_helpmenutext, .tm_helpmenutext2, .tm_helpmenutext3
+{
+  color: #2345b0;
+  position: absolute;
+  display: none;
+  border: 1px solid #607ac7;
+  background: #e2e2ed;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  max-width: 300px;
+  z-index: 9999;
+}
+
+.sortarrow
+{
+  vertical-align: top;
+  margin: 6px 0px 0px 5px;
+}
+
+.tm_helpmenutext2
+{
+  right: 20px;
+}
+
+.tm_helpmenutext3
+{
+  right: 40px;
+}
+
+.tm_iconhelp
+{
+  height: 9px;
+  width: 9px;
+}
+
+.tm_label1
+{
+  margin: 0px 10px 0px 0px;
+}
+
+.tm_label2
+{
+  margin: 0px 0px 0px 0px;
+}
+
+.tm_sidebar
+{
+  float:right; 
+  margin: 10px 10px 10px 10px; 
+  width: 163px; 
+  border: solid 1px gray; 
+  padding: 20px 20px 20px 20px; 
+  background-color: white;
+}
+
+.tm_pagespopup
+{
+  background-color: #F1F1F1; 
+  display: none; 
+  width: 500px; 
+  height:300px; 
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  margin: -150px 0px 0px -250px; 
+  border: solid 1px gray; 
+  padding: 5px;
+}
+
+.tm_pagespopup_top
+{
+  color: #333333; 
+  background-color: #F9F9F9; 
+  font-weight: bold; 
+  height: 2em; 
+  line-height: 2em; 
+  padding: 1px 5px; 
+  border: solid 1px #DDDDDD;
+}
+
+.tm_tabholder
+{
+  margin: 0px 0px 0px 3px;
+}
+
+.tm_tabon
+{
+  cursor: default;
+  display: inline-block;
+  border-top: solid 1px #DFDFDF;
+  border-left: solid 1px #DFDFDF;
+  border-right: solid 1px #DFDFDF;
+  background: #f3f3f3;
+  color: black;
+  margin: 0px 1px 0px 0px;
+  padding: 5px;
+}
+
+.tm_taboff
+{
+  cursor: pointer;
+  display: inline-block;
+  border-top: solid 1px #DFDFDF;
+  border-left: solid 1px #DFDFDF;
+  border-right: solid 1px #DFDFDF;
+  background: white;
+  color: black;
+  margin: 0px 1px 0px 0px;
+  padding: 5px;
+}
+
+.tm_tabdivon
+{
+  display: block;
+  border: 1px solid #DFDFDF;
+}
+
+.tm_tabdivoff
+{
+  display: none;
+  border: 1px solid #DFDFDF;
+}
